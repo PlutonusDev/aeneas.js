@@ -1,0 +1,20 @@
+{
+  "name": "aeneas.js",
+  "version": "1.0.0",
+  "description": "A NodeJS wrapper for the Aeneas botnet.",
+  "main": "./src/app.js",
+  "repository": "https://github.com/PlutonusDev/aeneas.js",
+  "author": "PlutonusDev <ceo@plutonus.co>",
+  "license": "GPl-3.0",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "lint": "eslint ./src/**/*.js"
+  }
+}
